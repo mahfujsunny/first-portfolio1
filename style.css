@@ -33,16 +33,18 @@ h2 {
 
 .header {
     display: flex;
+    width: 100%;
     background: url("./Images/banner.png") no-repeat;
     padding-bottom: 0;
 }
 
 .half-width {
     width: 50%;
+    padding: 20px;
 }
 
 .half-width img {
-    width: 100vh;
+    width: 100%;
     padding-top: 30px;
 }
 
@@ -68,6 +70,7 @@ h2 {
 
 .middle {
     display: flex;
+    width: 100%;
     background: url("./Images/frame7.png") no-repeat right;
 }
 
@@ -81,6 +84,10 @@ h2 {
     display: flex;
     background: url("./Images/exp-bg.png") no-repeat left;
 
+}
+
+.footer{
+    width: 100%;
 }
 
 .box {
